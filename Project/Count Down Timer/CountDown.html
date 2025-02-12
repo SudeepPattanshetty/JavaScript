@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alarm | Count Down Timer</title>
+  <link rel="stylesheet" href="CountDown.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Count Down timer</h1>
+      <div class="input-section">
+        <label for="target-date">Enter Date and Time:</label>
+        <input type="datetime-local" id="target-date"><br>
+        <button id="start-btn">Start CountDown</button>
+        <button id="reset-btn">Reset CountDown</button>
+      </div>
+      <div class="countdown">
+        <div class="time-box">
+          <span id="days">00</span>
+          <span>Days</span>
+        </div>
+        <div class="time-box">
+          <span id="hours">00</span>
+          <span>Hours</span>
+        </div>
+        <div class="time-box">
+          <span id="minutes">00</span>
+          <span>Minutes</span>
+        </div>
+        <div class="time-box">
+          <span id="seconds">00</span>
+          <span>Seconds</span>
+        </div>
+      </div>
+    </div>
+    <script src="CountDown.js"></script>
+</body>
+</html>
